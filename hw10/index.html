@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="data.js" defer></script>
+    <link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet'>
+
+    <style>
+        * {
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+            font-family: 'Montserrat', sans-serif;
+        }
+        
+        .content {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 30px;
+            margin: 30px;
+        }
+        
+        .car {
+            width: 260px;
+            border: 1px solid red;
+            border-radius: 10px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            box-shadow: 6px 6px 12px black;
+            max-height: 160px;
+            overflow: auto;
+        }
+        
+        .car__header {
+            font-size: 18px;
+            font-weight: 900;
+            padding: 12px;
+        }
+        
+        .car__text {
+            color: blue;
+            font-size: 16px;
+            opacity: 50;
+            padding: 6px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="content"></div>
+</body>
+
+</html>
