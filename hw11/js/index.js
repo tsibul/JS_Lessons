@@ -151,7 +151,7 @@ catalog.addEventListener('click', e => {
 
 cart.addEventListener('click', e => {
     if ([...closeItem].includes(e.target.closest('div'))) {
-        if (cartCounter == 1) {
+        if (cartCounter === 1) {
             deletedBlock = e.target.closest('.container');
             deletedBlock.remove();
             cartCounter = 0
